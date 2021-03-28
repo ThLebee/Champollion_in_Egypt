@@ -1,2 +1,9 @@
 # Champollion_in_Egypt
-This repository is intented to gather ressources about Champollion's travel to Egypt in 1828-1829.
+Ce dépôt rassemble les outils élaborés en dépouillant la publication des lettres et du journal de voyage de Champollion en Égypte (Hermine Hartleben, éd. : <i>Lettres et journaux de Champollion</i>, t. 2 <i><a href="https://gallica.bnf.fr/ark:/12148/bpt6k55516z.image">Lettres et journaux écrits pendant le voyage d’Égypte</a></i> (<i>Bibliothèque égyptologique</i> 31), Paris, Ernest Leroux, 1909).
+Seules les 100 premières pages ont été dépouillées pour l'instant). Les données ont été organisées en vue de les exploiter au moyen de Palladio et Umaps.
+
+<ul><li>le relevé lui-même (<a href="https://github.com/ThLebee/Champollion_in_Egypt/blob/ecbb8857bfc815d2bdf8bfa99ecdb2b86b974971/index.tsv">index.tsv</a>) indique, page après page de l'édition imprimée, les occurrences de lieux, de noms de personnes, etc. ;</li>
+<li>une liste des lieux (<a href="https://github.com/ThLebee/Champollion_in_Egypt/blob/ecbb8857bfc815d2bdf8bfa99ecdb2b86b974971/places.tsv">places.tsv</a>) a été établie à partir de cet index, en indiquant la langue utilisée, une forme standardisée (pour associer plusieurs toponymes évocant un même lieu sous une même entrée), les références correspondantes Geonames et Trismegistos, ainsi que des observations le cas échéant ;</li>
+<li>le fichier <a href="https://github.com/ThLebee/Champollion_in_Egypt/blob/ecbb8857bfc815d2bdf8bfa99ecdb2b86b974971/places_umaps.tsv">places_umaps.tsv</a> a été obtenu à partir des données rassemblées dans les fichiers précédants, en les travaillant pour obtenir une feuille de donnée exploitable par Umaps afin d'obtenir une carte animée.</li></ul>
+
+Ces ressources accompagnent le billet « <a href="https://hef.hypotheses.org/944">Suivre Champollion le Jeune en Égypte</a> » (<i>Histoire de l'égyptologie en formation</i>, mars 2021) ; ils ont permis d'élaborer une <a href="http://u.osmfr.org/m/568500/">carte animée sur Umap</a>.
